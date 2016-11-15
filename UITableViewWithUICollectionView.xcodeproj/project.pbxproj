@@ -15,6 +15,21 @@
 		AB57F4221DDADD1900726EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB57F4201DDADD1900726EFF /* LaunchScreen.storyboard */; };
 		AB57F42D1DDADD1900726EFF /* UITableViewWithUICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F42C1DDADD1900726EFF /* UITableViewWithUICollectionViewTests.m */; };
 		AB57F4381DDADD1900726EFF /* UITableViewWithUICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4371DDADD1900726EFF /* UITableViewWithUICollectionViewUITests.m */; };
+		AB57F4CB1DDADE2F00726EFF /* shopCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4CA1DDADE2F00726EFF /* shopCarModel.m */; };
+		AB57F4D21DDADE4200726EFF /* CollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4CD1DDADE4200726EFF /* CollectionViewFlowLayout.m */; };
+		AB57F4D31DDADE4200726EFF /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4CF1DDADE4200726EFF /* CollectionViewCell.m */; };
+		AB57F4D41DDADE4200726EFF /* CollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4D11DDADE4200726EFF /* CollectionViewHeaderView.m */; };
+		AB57F4D81DDADE4A00726EFF /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = AB57F4D51DDADE4A00726EFF /* liwushuo.json */; };
+		AB57F4D91DDADE4A00726EFF /* collectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4D71DDADE4A00726EFF /* collectModel.m */; };
+		AB57F4DC1DDADE5200726EFF /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4DB1DDADE5200726EFF /* CollectionViewController.m */; };
+		AB57F4E51DDADE5F00726EFF /* UIView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4DE1DDADE5F00726EFF /* UIView+kit.m */; };
+		AB57F4E61DDADE5F00726EFF /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4E01DDADE5F00726EFF /* LeftTableViewCell.m */; };
+		AB57F4E71DDADE5F00726EFF /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4E21DDADE5F00726EFF /* RightTableViewCell.m */; };
+		AB57F4E81DDADE5F00726EFF /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4E41DDADE5F00726EFF /* TableViewHeaderView.m */; };
+		AB57F4EE1DDADE6800726EFF /* meituan.json in Resources */ = {isa = PBXBuildFile; fileRef = AB57F4E91DDADE6800726EFF /* meituan.json */; };
+		AB57F4EF1DDADE6800726EFF /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4EB1DDADE6800726EFF /* CategoryModel.m */; };
+		AB57F4F01DDADE6800726EFF /* NSObject+Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4ED1DDADE6800726EFF /* NSObject+Kit.m */; };
+		AB57F4F31DDADE7100726EFF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB57F4F21DDADE7100726EFF /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,34 @@
 		AB57F4331DDADD1900726EFF /* UITableViewWithUICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewWithUICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB57F4371DDADD1900726EFF /* UITableViewWithUICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewWithUICollectionViewUITests.m; sourceTree = "<group>"; };
 		AB57F4391DDADD1900726EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB57F4C91DDADE2F00726EFF /* shopCarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopCarModel.h; sourceTree = "<group>"; };
+		AB57F4CA1DDADE2F00726EFF /* shopCarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopCarModel.m; sourceTree = "<group>"; };
+		AB57F4CC1DDADE4200726EFF /* CollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		AB57F4CD1DDADE4200726EFF /* CollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		AB57F4CE1DDADE4200726EFF /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AB57F4CF1DDADE4200726EFF /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AB57F4D01DDADE4200726EFF /* CollectionViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewHeaderView.h; sourceTree = "<group>"; };
+		AB57F4D11DDADE4200726EFF /* CollectionViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewHeaderView.m; sourceTree = "<group>"; };
+		AB57F4D51DDADE4A00726EFF /* liwushuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = liwushuo.json; sourceTree = "<group>"; };
+		AB57F4D61DDADE4A00726EFF /* collectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectModel.h; sourceTree = "<group>"; };
+		AB57F4D71DDADE4A00726EFF /* collectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectModel.m; sourceTree = "<group>"; };
+		AB57F4DA1DDADE5200726EFF /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		AB57F4DB1DDADE5200726EFF /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		AB57F4DD1DDADE5F00726EFF /* UIView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kit.h"; sourceTree = "<group>"; };
+		AB57F4DE1DDADE5F00726EFF /* UIView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+kit.m"; sourceTree = "<group>"; };
+		AB57F4DF1DDADE5F00726EFF /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		AB57F4E01DDADE5F00726EFF /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		AB57F4E11DDADE5F00726EFF /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
+		AB57F4E21DDADE5F00726EFF /* RightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewCell.m; sourceTree = "<group>"; };
+		AB57F4E31DDADE5F00726EFF /* TableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		AB57F4E41DDADE5F00726EFF /* TableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
+		AB57F4E91DDADE6800726EFF /* meituan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meituan.json; sourceTree = "<group>"; };
+		AB57F4EA1DDADE6800726EFF /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		AB57F4EB1DDADE6800726EFF /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		AB57F4EC1DDADE6800726EFF /* NSObject+Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Kit.h"; sourceTree = "<group>"; };
+		AB57F4ED1DDADE6800726EFF /* NSObject+Kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Kit.m"; sourceTree = "<group>"; };
+		AB57F4F11DDADE7100726EFF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AB57F4F21DDADE7100726EFF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +124,11 @@
 		AB57F4061DDADD1900726EFF = {
 			isa = PBXGroup;
 			children = (
+				AB57F4C81DDADDFF00726EFF /* TableView */,
+				AB57F4C61DDADDEB00726EFF /* CollectionView */,
+				AB57F4C51DDADDE200726EFF /* shopModel */,
+				AB57F4C31DDADD7300726EFF /* fmdb */,
+				AB57F4C41DDADD7300726EFF /* SDWebImage */,
 				AB57F4111DDADD1900726EFF /* UITableViewWithUICollectionView */,
 				AB57F42B1DDADD1900726EFF /* UITableViewWithUICollectionViewTests */,
 				AB57F4361DDADD1900726EFF /* UITableViewWithUICollectionViewUITests */,
@@ -138,6 +186,69 @@
 				AB57F4391DDADD1900726EFF /* Info.plist */,
 			);
 			path = UITableViewWithUICollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		AB57F4C31DDADD7300726EFF /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		AB57F4C41DDADD7300726EFF /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		AB57F4C51DDADDE200726EFF /* shopModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB57F4C91DDADE2F00726EFF /* shopCarModel.h */,
+				AB57F4CA1DDADE2F00726EFF /* shopCarModel.m */,
+			);
+			name = shopModel;
+			sourceTree = "<group>";
+		};
+		AB57F4C61DDADDEB00726EFF /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB57F4DA1DDADE5200726EFF /* CollectionViewController.h */,
+				AB57F4DB1DDADE5200726EFF /* CollectionViewController.m */,
+				AB57F4D51DDADE4A00726EFF /* liwushuo.json */,
+				AB57F4D61DDADE4A00726EFF /* collectModel.h */,
+				AB57F4D71DDADE4A00726EFF /* collectModel.m */,
+				AB57F4CC1DDADE4200726EFF /* CollectionViewFlowLayout.h */,
+				AB57F4CD1DDADE4200726EFF /* CollectionViewFlowLayout.m */,
+				AB57F4CE1DDADE4200726EFF /* CollectionViewCell.h */,
+				AB57F4CF1DDADE4200726EFF /* CollectionViewCell.m */,
+				AB57F4D01DDADE4200726EFF /* CollectionViewHeaderView.h */,
+				AB57F4D11DDADE4200726EFF /* CollectionViewHeaderView.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		AB57F4C81DDADDFF00726EFF /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AB57F4F11DDADE7100726EFF /* TableViewController.h */,
+				AB57F4F21DDADE7100726EFF /* TableViewController.m */,
+				AB57F4E91DDADE6800726EFF /* meituan.json */,
+				AB57F4EA1DDADE6800726EFF /* CategoryModel.h */,
+				AB57F4EB1DDADE6800726EFF /* CategoryModel.m */,
+				AB57F4EC1DDADE6800726EFF /* NSObject+Kit.h */,
+				AB57F4ED1DDADE6800726EFF /* NSObject+Kit.m */,
+				AB57F4DD1DDADE5F00726EFF /* UIView+kit.h */,
+				AB57F4DE1DDADE5F00726EFF /* UIView+kit.m */,
+				AB57F4DF1DDADE5F00726EFF /* LeftTableViewCell.h */,
+				AB57F4E01DDADE5F00726EFF /* LeftTableViewCell.m */,
+				AB57F4E11DDADE5F00726EFF /* RightTableViewCell.h */,
+				AB57F4E21DDADE5F00726EFF /* RightTableViewCell.m */,
+				AB57F4E31DDADE5F00726EFF /* TableViewHeaderView.h */,
+				AB57F4E41DDADE5F00726EFF /* TableViewHeaderView.m */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB57F4221DDADD1900726EFF /* LaunchScreen.storyboard in Resources */,
+				AB57F4D81DDADE4A00726EFF /* liwushuo.json in Resources */,
 				AB57F41F1DDADD1900726EFF /* Assets.xcassets in Resources */,
 				AB57F41D1DDADD1900726EFF /* Main.storyboard in Resources */,
+				AB57F4EE1DDADE6800726EFF /* meituan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB57F4E71DDADE5F00726EFF /* RightTableViewCell.m in Sources */,
+				AB57F4EF1DDADE6800726EFF /* CategoryModel.m in Sources */,
+				AB57F4F01DDADE6800726EFF /* NSObject+Kit.m in Sources */,
+				AB57F4D91DDADE4A00726EFF /* collectModel.m in Sources */,
+				AB57F4E51DDADE5F00726EFF /* UIView+kit.m in Sources */,
+				AB57F4D31DDADE4200726EFF /* CollectionViewCell.m in Sources */,
 				AB57F41A1DDADD1900726EFF /* ViewController.m in Sources */,
+				AB57F4F31DDADE7100726EFF /* TableViewController.m in Sources */,
 				AB57F4171DDADD1900726EFF /* AppDelegate.m in Sources */,
+				AB57F4D21DDADE4200726EFF /* CollectionViewFlowLayout.m in Sources */,
+				AB57F4E81DDADE5F00726EFF /* TableViewHeaderView.m in Sources */,
+				AB57F4E61DDADE5F00726EFF /* LeftTableViewCell.m in Sources */,
+				AB57F4CB1DDADE2F00726EFF /* shopCarModel.m in Sources */,
 				AB57F4141DDADD1900726EFF /* main.m in Sources */,
+				AB57F4D41DDADE4200726EFF /* CollectionViewHeaderView.m in Sources */,
+				AB57F4DC1DDADE5200726EFF /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +640,7 @@
 				AB57F43E1DDADD1900726EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB57F43F1DDADD1900726EFF /* Build configuration list for PBXNativeTarget "UITableViewWithUICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +649,7 @@
 				AB57F4411DDADD1900726EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB57F4421DDADD1900726EFF /* Build configuration list for PBXNativeTarget "UITableViewWithUICollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +658,7 @@
 				AB57F4441DDADD1900726EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
