@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 300, 400)];
+    _rightTableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _rightTableView.delegate = self;
     _rightTableView.dataSource = self;
     [self.view addSubview:_rightTableView];
@@ -39,7 +39,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
-    cell.textLabel.textAlignment = NSTextAlignmentCenter;
+   // cell.textLabel.textAlignment = NSTextAlignmentCenter;
     cell.textLabel.text = _dataArrM[indexPath.row];
     return cell;
 }
